@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Rising Group";
+    ViewData["Title"] = "API GPDLC";
 }
 
 <div class="text-center">
@@ -7,14 +7,14 @@
         <div class="modal-content">
             <div class="modal-header">
                 
-                <h4 class="modal-title" id="myModalLabel">Rising Group</h4>
-                <h6 class="modal-title" id="myModalLabel2">Arunima Sports Wear Ltd.</h6>
+                <h5 style="margin-right:200px;"class="modal-title" id="myModalLabel">Advanced Project Integration</h5>
+                <h6 class="modal-title" id="myModalLabel2">GPDLC</h6>
             </div>
             <div class="modal-body">
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="well">
-                            <form id="loginForm" method="post" action="/login/" novalidate="novalidate">
+                            <form id="loginForm" method="post" asp-controller="Home" asp-action="Home" novalidate="novalidate">
                                 <div class="form-group">
                                     <label for="username" class="control-label">Select Company Profile</label>
                                     <select>

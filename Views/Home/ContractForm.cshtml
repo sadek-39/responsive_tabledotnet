@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewData["Title"] = "ContractForm";
+}
+<div class="container">
+    <h2>Contract List</h2>
+    <div class="table-responsive table table-bordred table-striped">
+        <table id="makeEditable" >
+            <caption class="caption">Contract Details</caption>
+            <thead>
+                <tr>
+                    <th>Sl no</th>
+                    <th>Job</th>
+                    <th>Factory</th>
+                    <th>Buyer Name</th>
+                    <th>Contract no</th>
+                    <th>Contract Date</th>
+                    <th>value(US$)</th>
+                    <th>Quantity(pcs)</th>
+                    <th>FOB/Pc</th>
+                    <th>Budget(US $)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>WEB-001-2020</td>
+                    <td>WEB</td>
+                    <td>XYZ Company</td>
+                    <td>XYZ-01-2020</td>
+                    <td>2020-11-14</td>
+                    <td>10.00</td>
+                    <td>10.00</td>
+                    <td>1.00</td>
+                    <td>9.00</td>
+                    @*<td>
+                        <button id="editbutton" class="btn btn-light">Edit</button>
+                        <button style="margin-top:5px;" class="btn btn-dark">Save</button>
+                        <button style="margin-top:5px;"class="btn btn-info">Print</button>
+                    
+                    </td>*@
+
+                </tr>
+                <tr >
+                    <td>1</td>
+                    <td>WEB-001-2020</td>
+                    <td>WEB</td>
+                    <td>XYZ Company</td>
+                    <td>XYZ-01-2020</td>
+                    <td>2020-11-14</td>
+                    <td>10.00</td>
+                    <td>10.00</td>
+                    <td>1.00</td>
+                    <td>9.00</td>
+                    @*<td>
+                        <button id="editbutton"class="btn btn-light">Edit</button>
+                        <button style="margin-top:5px;" class="btn btn-dark">Save</button>
+                        <button style="margin-top:5px;" class="btn btn-info">Print</button>
+
+                    </td>*@
+
+                </tr>
+                </table>
+            <table>
+                <tr class="bottomrow">
+                    <td>
+                        <select name="company">
+                            <option>Click Here</option>
+                            <option>Webytor</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="company">
+                            <option value="click">Click Here</option>
+                            <option value="XYZ Company">XYZ company</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="contract_no" />
+
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="contract_date" />
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="value" />
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="quantity" />
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="fob" />
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="budget" />
+                    </td>
+                    <td><a href="#" class="btn btn-outline-success"><span class="glyphicon glyphicon-ok" ></span></a></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+

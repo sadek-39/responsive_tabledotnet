@@ -31,6 +31,18 @@ namespace dot_2.Controllers
         {
             return View();
         }
+        public IActionResult Home()
+        {
+            return View();
+        }
+        public IActionResult ContractForm()
+        {
+            return View();
+        }
+        public IActionResult BillofMaterial()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
